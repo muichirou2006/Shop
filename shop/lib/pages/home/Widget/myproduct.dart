@@ -101,7 +101,7 @@ final List<MyProducts> products = [
         "Inspired by the bold aesthetics of the '90s, the New Balance X-90 shoes deliver a modern twist on a retro classic. Featuring a sleek silhouette with premium materials, these shoes offer unmatched style and comfort. ",
     image: "assets/wristwatch.png",
     price: 90,
-    seller: "Mr Narith",
+    seller: "Mr Nha",
     color: [
       Colors.yellow,
       Colors.pink,
