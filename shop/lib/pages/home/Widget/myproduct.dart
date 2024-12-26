@@ -33,7 +33,7 @@ final List<MyProducts> products = [
         "Inspired by the bold aesthetics of the '90s, the New Balance X-90 shoes deliver a modern twist on a retro classic.",
     image: "assets/shoes4.png",
     price: 110,
-    seller: "Mr Narith",
+    seller: "NextZin",
     color: [
       Colors.blue,
       Colors.pink,
