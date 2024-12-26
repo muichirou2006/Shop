@@ -19,7 +19,7 @@ class _NavBarScreenState extends State<NavBarScreen> {
     Favorite(),
     HomeScreen(),
     CartScreen(),
-    Scaffold(),
+    Profile3(),
   ];
   @override
   Widget build(BuildContext context) {
