@@ -31,7 +31,7 @@ final List<MyProducts> products = [
     title: "X-90 Shoes",
     description:
         "Inspired by the bold aesthetics of the '90s, the New Balance X-90 shoes deliver a modern twist on a retro classic.",
-    image: "assets/shoes4.png",
+    image: "assets/x90_shoes.png",
     price: 110,
     seller: "NextZin",
     color: [
@@ -55,6 +55,24 @@ final List<MyProducts> products = [
       Colors.yellow,
       Colors.pink,
       Colors.black,
+    ],
+    category: "Ten11",
+    review: "(600 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
+  MyProducts(
+    title: "Man Shirt",
+    description:
+        "This [fabric type, e.g., cotton or linen] shirt offers a perfect blend of comfort and style. ",
+    image: "assets/man_shirt.png",
+    price: 15,
+    seller: "Mr Narith",
+    color: [
+      Colors.yellow,
+      Colors.pink,
+      Colors.black,
+      Colors.green,
     ],
     category: "Ten11",
     review: "(600 Review)",
@@ -112,13 +130,47 @@ final List<MyProducts> products = [
     rate: 8.9,
     quantity: 1,
   ),
+  MyProducts(
+    title: "Man Shoes",
+    description:
+        "Designed to combine cutting-edge technology and modern aesthetics, Nike shoes are the epitome of performance and fashion. Each pair offers: Unparalleled Comfort: Featuring innovative cushioning like Nike Air or React foam, these shoes ensure all-day support for both sports and casual wear.Durability You Can Rely On: Crafted with premium materials that withstand the toughest workouts and adventures.Dynamic Style: Sleek, modern designs that make a bold statement, whether you're on the track, court, or street.Performance-Driven Features: Engineered for athletes, with features like breathable uppers, enhanced traction, and lightweight construction to help you excel in any activity.Perfect for running, training, or everyday wear, Nike shoes are more than footwear—they’re a lifestyle choice. Step into innovation and elevate your game with Nike.",
+    image: "assets/shoes2.png",
+    price: 54,
+    seller: "Mr Narith",
+    color: [
+      Colors.blue,
+      Colors.pink,
+      Colors.black,
+    ],
+    category: "Addidas",
+    review: "(500 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
+  MyProducts(
+    title: "Addidas Shoes",
+    description:
+        "Designed to combine cutting-edge technology and modern aesthetics, Nike shoes are the epitome of performance and fashion. Each pair offers: Unparalleled Comfort: Featuring innovative cushioning like Nike Air or React foam, these shoes ensure all-day support for both sports and casual wear.Durability You Can Rely On: Crafted with premium materials that withstand the toughest workouts and adventures.Dynamic Style: Sleek, modern designs that make a bold statement, whether you're on the track, court, or street.Performance-Driven Features: Engineered for athletes, with features like breathable uppers, enhanced traction, and lightweight construction to help you excel in any activity.Perfect for running, training, or everyday wear, Nike shoes are more than footwear—they’re a lifestyle choice. Step into innovation and elevate your game with Nike.",
+    image: "assets/shoes3.png",
+    price: 54,
+    seller: "Mr Narith",
+    color: [
+      Colors.blue,
+      Colors.pink,
+      Colors.black,
+    ],
+    category: "Addidas",
+    review: "(500 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
 ];
 final List<MyProducts> shoes = [
   MyProducts(
     title: "X-90 Shoes",
     description:
         "Inspired by the bold aesthetics of the '90s, the New Balance X-90 shoes deliver a modern twist on a retro classic.",
-    image: "assets/shoes4.png",
+    image: "assets/x90_shoes.png",
     price: 110,
     seller: "Mr Narith",
     color: [
@@ -144,6 +196,57 @@ final List<MyProducts> shoes = [
       Colors.black,
     ],
     category: "Nike",
+    review: "(500 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
+  MyProducts(
+    title: "Man Shoes",
+    description:
+        "Designed to combine cutting-edge technology and modern aesthetics, Nike shoes are the epitome of performance and fashion. Each pair offers: Unparalleled Comfort: Featuring innovative cushioning like Nike Air or React foam, these shoes ensure all-day support for both sports and casual wear.Durability You Can Rely On: Crafted with premium materials that withstand the toughest workouts and adventures.Dynamic Style: Sleek, modern designs that make a bold statement, whether you're on the track, court, or street.Performance-Driven Features: Engineered for athletes, with features like breathable uppers, enhanced traction, and lightweight construction to help you excel in any activity.Perfect for running, training, or everyday wear, Nike shoes are more than footwear—they’re a lifestyle choice. Step into innovation and elevate your game with Nike.",
+    image: "assets/shoes2.png",
+    price: 54,
+    seller: "Mr Narith",
+    color: [
+      Colors.blue,
+      Colors.pink,
+      Colors.black,
+    ],
+    category: "Addidas",
+    review: "(500 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
+  MyProducts(
+    title: "Addidas Shoes",
+    description:
+        "Designed to combine cutting-edge technology and modern aesthetics, Nike shoes are the epitome of performance and fashion. Each pair offers: Unparalleled Comfort: Featuring innovative cushioning like Nike Air or React foam, these shoes ensure all-day support for both sports and casual wear.Durability You Can Rely On: Crafted with premium materials that withstand the toughest workouts and adventures.Dynamic Style: Sleek, modern designs that make a bold statement, whether you're on the track, court, or street.Performance-Driven Features: Engineered for athletes, with features like breathable uppers, enhanced traction, and lightweight construction to help you excel in any activity.Perfect for running, training, or everyday wear, Nike shoes are more than footwear—they’re a lifestyle choice. Step into innovation and elevate your game with Nike.",
+    image: "assets/shoes3.png",
+    price: 75,
+    seller: "Mr Narith",
+    color: [
+      Colors.blue,
+      Colors.pink,
+      Colors.black,
+    ],
+    category: "Addidas",
+    review: "(500 Review)",
+    rate: 9.9,
+    quantity: 1,
+  ),
+  MyProducts(
+    title: "Men Shoes",
+    description:
+        "Designed to combine cutting-edge technology and modern aesthetics, Nike shoes are the epitome of performance and fashion. Each pair offers: Unparalleled Comfort: Featuring innovative cushioning like Nike Air or React foam, these shoes ensure all-day support for both sports and casual wear.Durability You Can Rely On: Crafted with premium materials that withstand the toughest workouts and adventures.Dynamic Style: Sleek, modern designs that make a bold statement, whether you're on the track, court, or street.Performance-Driven Features: Engineered for athletes, with features like breathable uppers, enhanced traction, and lightweight construction to help you excel in any activity.Perfect for running, training, or everyday wear, Nike shoes are more than footwear—they’re a lifestyle choice. Step into innovation and elevate your game with Nike.",
+    image: "assets/men-shoes.png",
+    price: 45,
+    seller: "Mr Narith",
+    color: [
+      Colors.blue,
+      Colors.pink,
+      Colors.black,
+    ],
+    category: "Addidas",
     review: "(500 Review)",
     rate: 9.9,
     quantity: 1,
