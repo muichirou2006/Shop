@@ -20,7 +20,6 @@ class _NavBarScreenState extends State<NavBarScreen> {
     HomeScreen(),
     CartScreen(),
     Profile3(),
-    //Profile2(),
   ];
   @override
   Widget build(BuildContext context) {

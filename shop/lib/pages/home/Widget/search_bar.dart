@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:shop/Provider/provider_search.dart';
 
 class MySearchBar extends StatefulWidget {
   const MySearchBar({super.key});
@@ -8,9 +10,9 @@ class MySearchBar extends StatefulWidget {
 }
 
 class _MySearchBarState extends State<MySearchBar> {
-  final TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    final providerSearch = Provider.of<ProviderSearch>(context);
     return Container(
       height: 55,
       width: double.infinity,
@@ -30,11 +32,11 @@ class _MySearchBarState extends State<MySearchBar> {
           Flexible(
             flex: 4,
             child: TextField(
-              controller: searchController,
               decoration: const InputDecoration(
                 hintText: 'Search....',
                 border: InputBorder.none,
               ),
+              onChanged: (value) => providerSearch.runFilter(value),
             ),
           ),
           Container(

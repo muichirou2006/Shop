@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shop/Provider/cart_provider.dart';
 import 'package:shop/Provider/favorite_provider.dart';
+import 'package:shop/Provider/provider_search.dart';
 import 'package:shop/pages/nav_bar_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -20,6 +21,9 @@ class MyApp extends StatelessWidget {
             ChangeNotifierProvider(
               create: (_) => FavoriteProvider(),
             ),
+            ChangeNotifierProvider(
+              create: (_) => ProviderSearch(),
+            )
           ],
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
